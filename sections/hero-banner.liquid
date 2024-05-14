@@ -1,0 +1,239 @@
+{{ 'section-hero-banner.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'hero-banner.js' | asset_url }}" defer="defer"></script>
+
+{% style %}
+	{% render 'section-margin' %}
+	#shopify-section-{{ section.id }} .have-overlay {
+		--overlay-alpha : {{ section.settings.overlay_opacity }}%;
+	}
+{% endstyle %}
+
+{% liquid
+	case section.settings.image_size
+		when 'adapt'
+			assign section_size = 0
+		when 'small'
+			assign section_size = '30vh'
+		when 'medium'
+			assign section_size = '60vh'
+		when 'large'
+			assign section_size = '100vh'
+		else
+			assign section_size = '100vh'
+	endcase
+%}
+
+{% liquid
+	assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+	assign adapt_height = 1 | divided_by: section.settings.image.aspect_ratio | times: 100 | append: '%'
+	if section.settings.image_size == 'adapt'
+		assign section_size = adapt_height
+	endif
+%}
+
+{%- style -%}
+	#shopify-section-{{ section.id }} {
+		--image-height : {{ section_size }};
+	}
+{%- endstyle -%}
+
+<div class="hero-banner">
+	<div class="hero-banner__image-wrapper overlay-header-paddings">
+		<div class="hero-banner__img have-overlay">
+			{%- if section.settings.image != blank -%}
+				{% assign image_height = section.settings.image.width
+					| divided_by: section.settings.image.aspect_ratio
+				%}
+				{{
+					section.settings.image
+					| image_url: width: 3840
+					| image_tag:
+						loading: 'lazy',
+						width: section.settings.image.width,
+						height: image_height,
+						sizes: '100vw',
+						widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+				}}
+			{%- else -%}
+				{{ 'image' | placeholder_svg_tag }}
+			{%- endif -%}
+		</div>
+		<div class="hero-banner__img-logo{% if section.settings.enabel_animation %} scroll-logo{% endif %}" style="margin-bottom: {{ section.settings.logo_margin }}px">
+			{%- if section.settings.image_logo != blank -%}
+				{% assign image_height = section.settings.image_logo.width
+					| divided_by: section.settings.image_logo.aspect_ratio
+				%}
+				{%- capture style -%}
+					object-fit: {{ section.settings.object_fit }};
+				{%- endcapture -%}
+				{{
+					section.settings.image_logo
+					| image_url: width: 3840
+					| image_tag:
+						loading: 'lazy',
+						width: section.settings.image_logo.width,
+						height: image_height,
+						sizes: '200vw, (min-width: 1023px) 100vw',
+						widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+						style: style
+				}}
+			{%- endif -%}
+		</div>
+	</div>
+</div>
+
+{% schema %}
+{
+	"name": "t:sections.hero-banner.name",
+	"tag": "section",
+	"class": "hero-banner-section spaced-section",
+	"enabled_on": {
+		"templates": ["*"]
+	},
+	"settings": [
+		{
+			"type": "header",
+			"content": "t:sections.all.image.header.content"
+		},
+		{
+			"type": "image_picker",
+			"id": "image",
+			"label": "t:sections.all.image.label"
+		},
+		{
+			"type": "select",
+			"id": "image_size",
+			"options": [
+				{
+					"value": "adapt",
+					"label": "t:sections.all.image.size.options__1.label"
+				},
+				{
+					"value": "small",
+					"label": "t:sections.all.image.size.options__2.label"
+				},
+				{
+					"value": "medium",
+					"label": "t:sections.all.image.size.options__3.label"
+				},
+				{
+					"value": "large",
+					"label": "t:sections.all.image.size.options__4.label"
+				}
+			],
+			"default": "small",
+			"label": "t:sections.all.image.size.label"
+		},
+		{
+			"type": "range",
+			"id": "overlay_opacity",
+			"min": 0,
+			"max": 100,
+			"default": 0,
+			"unit": "%",
+			"label": "t:sections.all.overlay_opacity.label"
+		},
+		{
+			"type": "image_picker",
+			"id": "image_logo",
+			"label": "t:sections.all.image.image_second"
+		},
+		{
+			"type": "range",
+			"id": "logo_margin",
+			"min": -30,
+			"max": 30,
+			"step": 1,
+			"default": 0,
+			"label": "t:sections.hero-banner.settings.logo_margin.label"
+		},
+		{
+			"type": "checkbox",
+			"id": "enabel_animation",
+			"default": true,
+			"label": "t:sections.hero-banner.settings.animation.label"
+		},
+		{
+			"type": "select",
+			"id": "object_fit",
+			"options": [
+				{
+					"value": "cover",
+					"label": "t:sections.all.image.fit.options__2.label"
+				},
+				{
+					"value": "contain",
+					"label": "t:sections.all.image.fit.options__1.label"
+				}
+			],
+			"default": "cover",
+			"label": "t:sections.all.image.fit.label"
+		},
+		{
+			"type": "header",
+			"content": "t:sections.all.section-margin.header.content"
+		},
+		{
+			"type": "select",
+			"id": "margin_top",
+			"options": [
+				{
+					"value": "no-indent",
+					"label": "t:sections.all.section-margin.options__1.label"
+				},
+				{
+					"value": "xs",
+					"label": "t:sections.all.section-margin.options__2.label"
+				},
+				{
+					"value": "s",
+					"label": "t:sections.all.section-margin.options__3.label"
+				},
+				{
+					"value": "m",
+					"label": "t:sections.all.section-margin.options__4.label"
+				},
+				{
+					"value": "l",
+					"label": "t:sections.all.section-margin.options__5.label"
+				}
+			],
+			"default": "no-indent",
+			"label": "t:sections.all.section-margin.margin_top.label"
+		},
+		{
+			"type": "select",
+			"id": "margin_bottom",
+			"options": [
+				{
+					"value": "no-indent",
+					"label": "t:sections.all.section-margin.options__1.label"
+				},
+				{
+					"value": "xs",
+					"label": "t:sections.all.section-margin.options__2.label"
+				},
+				{
+					"value": "s",
+					"label": "t:sections.all.section-margin.options__3.label"
+				},
+				{
+					"value": "m",
+					"label": "t:sections.all.section-margin.options__4.label"
+				},
+				{
+					"value": "l",
+					"label": "t:sections.all.section-margin.options__5.label"
+				}
+			],
+			"default": "l",
+			"label": "t:sections.all.section-margin.margin_bottom.label"
+		}
+	],
+	"presets": [
+		{
+			"name": "t:sections.hero-banner.presets.name"
+		}
+	]
+}
+{% endschema %}
