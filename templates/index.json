@@ -550,6 +550,148 @@
         "margin_top": "no-indent",
         "margin_bottom": "l"
       }
+    },
+    "social_media_collage_F6UKae": {
+      "type": "social-media-collage",
+      "blocks": {
+        "social_media_desc_WtBaD7": {
+          "type": "social-media-desc",
+          "settings": {
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square",
+            "color_scheme": "",
+            "heading": "Heading",
+            "description": "<p>description<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "primary",
+            "icon_social": "instagram",
+            "gradient": "linear-gradient(132.88deg, rgba(120, 49, 250, 1) 8.28%, rgba(244, 1, 143, 1) 36.86%, rgba(252, 195, 0, 1) 96.43%)"
+          }
+        },
+        "social_media_image_RMdNJF": {
+          "type": "social-media-image",
+          "settings": {
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square"
+          }
+        },
+        "social_media_image_kbmPWa": {
+          "type": "social-media-image",
+          "settings": {
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square"
+          }
+        },
+        "social_media_image_aE7cAe": {
+          "type": "social-media-image",
+          "settings": {
+            "column_start": 5,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square"
+          }
+        },
+        "social_media_image_kRjgHB": {
+          "type": "social-media-image",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square"
+          }
+        },
+        "social_media_image_dd8bHN": {
+          "type": "social-media-image",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square"
+          }
+        },
+        "social_media_image_NxpiDx": {
+          "type": "social-media-image",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square"
+          }
+        },
+        "social_media_image_XMKR6F": {
+          "type": "social-media-image",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square"
+          }
+        },
+        "social_media_image_3PG3bG": {
+          "type": "social-media-image",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square"
+          }
+        },
+        "social_media_image_a3VhUD": {
+          "type": "social-media-image",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square"
+          }
+        },
+        "social_media_image_xGgkij": {
+          "type": "social-media-image",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "image_ratio": "square"
+          }
+        }
+      },
+      "block_order": [
+        "social_media_desc_WtBaD7",
+        "social_media_image_RMdNJF",
+        "social_media_image_kbmPWa",
+        "social_media_image_aE7cAe",
+        "social_media_image_kRjgHB",
+        "social_media_image_dd8bHN",
+        "social_media_image_NxpiDx",
+        "social_media_image_XMKR6F",
+        "social_media_image_3PG3bG",
+        "social_media_image_a3VhUD",
+        "social_media_image_xGgkij"
+      ],
+      "settings": {
+        "columns": 5,
+        "hide_mobile_image": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "l"
+      }
     }
   },
   "order": [
@@ -563,6 +705,7 @@
     "blog-post",
     "image-banner",
     "popular-products",
-    "grid_banner_hn6Mae"
+    "grid_banner_hn6Mae",
+    "social_media_collage_F6UKae"
   ]
 }
