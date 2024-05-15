@@ -28,7 +28,7 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "show_size_guide": false,
+            "show_size_guide": true,
             "size_guide_header": "Header",
             "size_guide_decription": "",
             "size_guide_text": "Size Guide",
