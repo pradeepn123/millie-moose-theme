@@ -81,7 +81,7 @@
       ],
       "settings": {
         "full_width": true,
-        "height": 65,
+        "height": 75,
         "header_enable_border_bottom": true,
         "logo_width": 250,
         "header_overlay": true,
