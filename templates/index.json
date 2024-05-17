@@ -7,7 +7,7 @@
           "type": "slideshow_item",
           "settings": {
             "image": "shopify:\/\/shop_images\/home_banner_01.png",
-            "color_scheme": "background-1",
+            "color_scheme": "background-3",
             "overlay_opacity": 20,
             "heading": "Slide heading",
             "text": "<p>Text from here describes your slide<\/p>",
