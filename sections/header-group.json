@@ -30,20 +30,6 @@
     "header": {
       "type": "header",
       "blocks": {
-        "dropdown": {
-          "type": "dropdown",
-          "settings": {
-            "dropdown_button_menu": "main-menu",
-            "show_promo": true,
-            "color_scheme": "background-1",
-            "heading": "Some header",
-            "description": "Some description",
-            "promo_alignment": "center",
-            "effect_opacity": 0.1,
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
         "mega_menu_collection_4whH9C": {
           "type": "mega_menu_collection",
           "settings": {
@@ -76,7 +62,6 @@
         }
       },
       "block_order": [
-        "dropdown",
         "mega_menu_collection_4whH9C"
       ],
       "settings": {
