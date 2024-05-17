@@ -300,116 +300,6 @@
         "margin_bottom": "l"
       }
     },
-    "countdown": {
-      "type": "countdown",
-      "settings": {
-        "color_scheme": "",
-        "subheading": "Subheading",
-        "heading": "Heading",
-        "text_horizontal": "left",
-        "button_label": "Button label",
-        "button_link": "",
-        "button_style": "tertiary",
-        "overlay_opacity": 10,
-        "time_zone": 0,
-        "date_picker": "2024-08-31",
-        "time_picker": "00:00",
-        "heading_size": "large",
-        "completed_countdown": "show_text",
-        "countdown_heading": "Header after countdown",
-        "margin_top": "no-indent",
-        "margin_bottom": "l",
-        "padding_top": "l",
-        "padding_bottom": "l",
-        "enable_border_top": true,
-        "enable_border_bottom": true
-      }
-    },
-    "split-screen-slideshow": {
-      "type": "split-screen-slideshow",
-      "blocks": {
-        "slide-1": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "subheading": "Subheading",
-            "heading": "Slide Heading 1",
-            "text": "<p>Text from here describes your slide<\/p>",
-            "slide_index": true,
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "tertiary"
-          }
-        },
-        "slide-2": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "subheading": "Subheading",
-            "heading": "Slide Heading 2",
-            "text": "<p>Text from here describes your slide<\/p>",
-            "slide_index": true,
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "tertiary"
-          }
-        },
-        "slide-3": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "subheading": "Subheading",
-            "heading": "Slide Heading 3",
-            "text": "<p>Text from here describes your slide<\/p>",
-            "slide_index": true,
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "tertiary"
-          }
-        }
-      },
-      "block_order": [
-        "slide-1",
-        "slide-2",
-        "slide-3"
-      ],
-      "settings": {
-        "sliding_types": "navigation",
-        "image_size": "75",
-        "parallax": false,
-        "is_autoplay": true,
-        "is_hover_stop_autoplay": true,
-        "show_arrows": true,
-        "show_bullets": true,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
-        "slide_effects": "fade",
-        "margin_top": "no-indent",
-        "margin_bottom": "l"
-      }
-    },
-    "blog-post": {
-      "type": "blog-post",
-      "settings": {
-        "posts_count": 4,
-        "per_row": 4,
-        "heading": "Heading",
-        "heading_position": "center",
-        "button_label": "Button label",
-        "button_link": "",
-        "blog": "",
-        "text_horizontal": "center",
-        "show_image": true,
-        "show_tags": true,
-        "show_date": true,
-        "show_author": false,
-        "show_excerpt": false,
-        "image_ratio": "portrait",
-        "image_fit": "cover",
-        "margin_top": "no-indent",
-        "margin_bottom": "l"
-      }
-    },
     "image-banner": {
       "type": "image-banner",
       "blocks": {
@@ -440,7 +330,7 @@
         "hide_mobile_image": true,
         "full_width": true,
         "color_scheme": "background-3",
-        "image_size": "adapt",
+        "image_size": "medium",
         "overlay_opacity": 0,
         "subheading": "COLLECTION",
         "heading": "It’s Family Time And We Love It!",
@@ -644,9 +534,6 @@
     "rich_text_PxeYqg",
     "collection_tabs_nmQiYG",
     "grid-banner",
-    "countdown",
-    "split-screen-slideshow",
-    "blog-post",
     "image-banner",
     "popular-products",
     "grid_banner_hn6Mae",
