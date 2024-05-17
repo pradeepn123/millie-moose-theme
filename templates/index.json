@@ -465,6 +465,7 @@
             "button_label": "Button label",
             "button_link": "",
             "button_style": "primary",
+            "instagram_image": "shopify:\/\/shop_images\/Insta_003.png",
             "icon_social": "instagram",
             "gradient": "linear-gradient(132.88deg, rgba(120, 49, 250, 1) 8.28%, rgba(244, 1, 143, 1) 36.86%, rgba(252, 195, 0, 1) 96.43%)"
           }
