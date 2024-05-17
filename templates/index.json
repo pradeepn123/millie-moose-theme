@@ -208,6 +208,7 @@
             "row_end": "auto",
             "color_scheme": "",
             "image_ratio": "landscape",
+            "image": "shopify:\/\/shop_images\/Collection_grid_001.png",
             "overlay_opacity": 20,
             "animation": true,
             "aniamtion_effect": "scale",
