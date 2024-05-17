@@ -46,6 +46,7 @@
           "type": "categories",
           "settings": {
             "collection": "women",
+            "collection_image": "shopify:\/\/shop_images\/women_collection.png",
             "button_label": "Button label",
             "button_link": "",
             "column_start": 1,
