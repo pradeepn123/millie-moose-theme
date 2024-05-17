@@ -351,10 +351,10 @@
         "button_link": "shopify:\/\/blogs\/news",
         "button_style": "tertiary",
         "margin_top": "no-indent",
-        "margin_bottom": "l",
+        "margin_bottom": "no-indent",
         "padding_top": "l",
         "padding_bottom": "l",
-        "enable_border_top": true,
+        "enable_border_top": false,
         "enable_border_bottom": false
       }
     },
@@ -379,9 +379,9 @@
         "show_color_swatch": false,
         "show_desc": false,
         "margin_top": "no-indent",
-        "margin_bottom": "l",
-        "padding_top": "l",
-        "padding_bottom": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "m",
         "enable_border_top": false,
         "enable_border_bottom": false
       }
