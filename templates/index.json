@@ -206,7 +206,7 @@
             "column_end": 2,
             "row_start": "auto",
             "row_end": "auto",
-            "color_scheme": "",
+            "color_scheme": "background-3",
             "image_ratio": "landscape",
             "image": "shopify:\/\/shop_images\/Collection_grid_001.png",
             "overlay_opacity": 20,
@@ -218,7 +218,7 @@
             "heading_size": "h2",
             "text": "",
             "button_label": "shop collection",
-            "button_link": "",
+            "button_link": "#",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -230,7 +230,7 @@
             "column_end": 3,
             "row_start": "auto",
             "row_end": "auto",
-            "color_scheme": "",
+            "color_scheme": "background-3",
             "image_ratio": "landscape",
             "image": "shopify:\/\/shop_images\/Collection_grid_002.png",
             "overlay_opacity": 20,
@@ -242,7 +242,7 @@
             "heading_size": "h2",
             "text": "",
             "button_label": "shop collection",
-            "button_link": "",
+            "button_link": "#",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -254,7 +254,7 @@
             "column_end": 2,
             "row_start": "auto",
             "row_end": "auto",
-            "color_scheme": "",
+            "color_scheme": "background-3",
             "image_ratio": "landscape",
             "image": "shopify:\/\/shop_images\/Collection_grid_003.png",
             "overlay_opacity": 20,
@@ -266,7 +266,7 @@
             "heading_size": "h2",
             "text": "",
             "button_label": "shop collection",
-            "button_link": "",
+            "button_link": "#",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -278,7 +278,7 @@
             "column_end": 3,
             "row_start": "auto",
             "row_end": "auto",
-            "color_scheme": "",
+            "color_scheme": "background-3",
             "image_ratio": "landscape",
             "image": "shopify:\/\/shop_images\/Collection_grid_004.png",
             "overlay_opacity": 20,
@@ -290,7 +290,7 @@
             "heading_size": "h2",
             "text": "",
             "button_label": "shop collection",
-            "button_link": "",
+            "button_link": "#",
             "second_button_label": "",
             "second_button_link": ""
           }
