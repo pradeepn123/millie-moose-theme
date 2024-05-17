@@ -175,7 +175,7 @@
       "settings": {
         "color_scheme": "",
         "heading": "Heading",
-        "description": "<p>Description<\/p>",
+        "description": "",
         "alignment": "left",
         "collection_list": [
 
@@ -364,9 +364,9 @@
         "product_list": [
 
         ],
-        "heading": "Heading",
-        "description": "<p>Description<\/p>",
-        "alignment": "center",
+        "heading": "Favourites",
+        "description": "",
+        "alignment": "left",
         "autoplay": false,
         "stop_autoplay": true,
         "slideshow_speed": 0.5,
