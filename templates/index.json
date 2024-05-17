@@ -72,6 +72,7 @@
           "type": "categories",
           "settings": {
             "collection": "kids-youth",
+            "collection_image": "shopify:\/\/shop_images\/kid_youth_collection.png",
             "button_label": "Button label",
             "button_link": "",
             "column_start": 3,
@@ -84,6 +85,7 @@
           "type": "categories",
           "settings": {
             "collection": "infants",
+            "collection_image": "shopify:\/\/shop_images\/infant_collection.png",
             "button_label": "Button label",
             "button_link": "",
             "column_start": 4,
