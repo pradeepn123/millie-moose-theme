@@ -124,9 +124,9 @@
       },
       "scheme-56636d92-bd03-48e8-91cb-dbf71f26eecb": {
         "settings": {
-          "colors_text": "#696969",
-          "colors_secondary_text": "#ad533f",
-          "colors_text_title": "#281c2d",
+          "colors_text": "#ffffff",
+          "colors_secondary_text": "#ffffff",
+          "colors_text_title": "#ffffff",
           "colors_background_1": "#e1e1e1",
           "colors_background_2": "#e9e9e9",
           "background_gradient": "",
@@ -149,6 +149,35 @@
           "colors_background_overlay": "#f4eee9",
           "color_border": "#d4d4d4",
           "color_accent": "#ad533f"
+        }
+      },
+      "scheme-5815fec4-7049-4ded-9e45-30b485c8e929": {
+        "settings": {
+          "colors_text": "#404625",
+          "colors_secondary_text": "#404625",
+          "colors_text_title": "#404625",
+          "colors_background_1": "#d0ded3",
+          "colors_background_2": "#f3f3f3",
+          "background_gradient": "",
+          "colors_primary_button_labels": "#ffffff",
+          "colors_primary_button_labels_hover": "#ffffff",
+          "colors_primary_button_background": "#404625",
+          "colors_primary_button_background_hover": "#495c4a",
+          "colors_secondary_button_labels": "#ffffff",
+          "colors_secondary_button_labels_hover": "#ffffff",
+          "colors_secondary_button_background": "#988c63",
+          "colors_secondary_button_background_hover": "#837663",
+          "colors_tertiary_button_labels": "#516052",
+          "colors_tertiary_button_labels_hover": "#ffffff",
+          "colors_tertiary_button_background": "#516052",
+          "colors_tertiary_button_background_hover": "#516052",
+          "colors_input_background": "#ececec",
+          "colors_input_border": "#ececec",
+          "colors_input_hover_border": "#ececec",
+          "colors_input_hover_background": "#ececec",
+          "colors_background_overlay": "#f4eee9",
+          "color_border": "#d4d4d4",
+          "color_accent": "#988c63"
         }
       }
     }
