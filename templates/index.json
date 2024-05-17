@@ -339,7 +339,7 @@
       "settings": {
         "hide_mobile_image": true,
         "full_width": true,
-        "color_scheme": "background-3",
+        "color_scheme": "scheme-56636d92-bd03-48e8-91cb-dbf71f26eecb",
         "image_size": "medium",
         "overlay_opacity": 0,
         "subheading": "COLLECTION",
@@ -348,7 +348,7 @@
         "text_horizontal": "left",
         "text_vertical": "center",
         "button_label": "shop matching set",
-        "button_link": "shopify:\/\/blogs\/news",
+        "button_link": "#",
         "button_style": "tertiary",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
@@ -433,7 +433,7 @@
             "text": "<p>GIFT FOR HIM<\/p>",
             "button_label": "shop collection",
             "button_link": "#",
-            "second_button_label": "Button label",
+            "second_button_label": "",
             "second_button_link": ""
           }
         }
