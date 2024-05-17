@@ -108,7 +108,7 @@
         "card_type": "standart",
         "text_horizontal": "center",
         "overlay_opacity": 20,
-        "show_collection_desc": true,
+        "show_collection_desc": false,
         "show_collection_button": true,
         "margin_top": "m",
         "margin_bottom": "l"
