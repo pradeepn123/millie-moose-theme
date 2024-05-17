@@ -528,21 +528,6 @@
         "margin_top": "no-indent",
         "margin_bottom": "l"
       }
-    },
-    "newsletter_a3AByz": {
-      "type": "newsletter",
-      "settings": {
-        "color_scheme": "background-1",
-        "position": "center",
-        "heading": "Some heading",
-        "text": "<p>Some text<\/p>",
-        "newsletter_text": "<p>Additional text<\/p>",
-        "button_style": "primary",
-        "margin_top": "no-indent",
-        "margin_bottom": "l",
-        "padding_top": "no-indent",
-        "padding_bottom": "no-indent"
-      }
     }
   },
   "order": [
@@ -554,7 +539,6 @@
     "image-banner",
     "popular-products",
     "grid_banner_hn6Mae",
-    "social_media_collage_F6UKae",
-    "newsletter_a3AByz"
+    "social_media_collage_F6UKae"
   ]
 }

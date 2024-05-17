@@ -8,7 +8,8 @@
         "footer-0": {
           "type": "logo_info",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify:\/\/shop_images\/website_use_logo.svg",
+            "logo_width": 190,
             "copyright_show": true
           }
         },
@@ -52,7 +53,7 @@
         "footer-5"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "color_scheme_bottom": "",
         "enable_language_selector": true,
         "enable_country_selector": true,
