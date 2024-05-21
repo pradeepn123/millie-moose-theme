@@ -374,7 +374,7 @@
         "column_P4rcGH": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Insta_001.png",
+            "image": "shopify:\/\/shop_images\/Insta_002.png",
             "text": "1",
             "heading": "Made With Organic Cotton",
             "desc": "<p>We are committed to delivering products of the highest quality, crafted with precision and attention to detail.<\/p>",
@@ -386,6 +386,7 @@
         "column_NHKkNf": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Insta_002.png",
             "text": "2",
             "heading": "Canadian Heritage",
             "desc": "<p>Paired with our commitment to using only ethically sourced organic fabrics, this is not your average line of loungewear.<\/p>",
@@ -397,6 +398,7 @@
         "column_8QAit3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Insta_002.png",
             "text": "3",
             "heading": "Timeless Comfort",
             "desc": "<p>Paired with our commitment to using only ethically sourced organic fabrics, this is not your average line of loungewear.<\/p>",
