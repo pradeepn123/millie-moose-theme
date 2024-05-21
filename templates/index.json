@@ -414,7 +414,8 @@
         "column_8QAit3"
       ],
       "custom_css": [
-        ".multicolumn-card__image-item {width: 150px;}"
+        ".multicolumn-card__image-item {width: 150px;}",
+        "H3 {font-size: 26PX;}"
       ],
       "settings": {
         "multicolumn_to_show": 3,
