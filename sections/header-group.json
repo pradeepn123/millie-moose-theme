@@ -37,7 +37,7 @@
             "menu_primary": "shop-by-style",
             "primary_heading": "shop by style",
             "primary_button_label": "View all styles",
-            "primary_button_link": "",
+            "primary_button_link": "#",
             "menu_secondary": "shop-by-collection",
             "secondary_heading": "SHOP BY COLLECTION",
             "secondary_button_label": "VIEW ALL COLLECTIONS",
