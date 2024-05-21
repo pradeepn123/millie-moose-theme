@@ -76,7 +76,7 @@
         "header_overlay": true,
         "menu": "main-menu",
         "color_scheme": "background-1",
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": false,
         "sticky_header_type": "always",
         "logo_position": "center",
