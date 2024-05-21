@@ -57,7 +57,7 @@
         "heading_7UCHNh"
       ],
       "custom_css": [
-        "h2 {font-size: 40px; letter-spacing: 1px}"
+        "h2 {font-size: 40px; letter-spacing: 1px;}"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -178,7 +178,7 @@
         "image_kLLdxy"
       ],
       "custom_css": [
-        ".subtitle {font-size: 12px;}"
+
       ],
       "settings": {
         "hide_mobile_image": true,
