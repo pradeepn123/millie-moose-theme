@@ -57,7 +57,7 @@
         "heading_7UCHNh"
       ],
       "custom_css": [
-        "h2 {font-size: 40px;}"
+        "h2 {font-size: 40px; letter-spacing: 1px}"
       ],
       "settings": {
         "color_scheme": "background-1",
