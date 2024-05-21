@@ -394,9 +394,9 @@
           "type": "column",
           "settings": {
             "text": "1",
-            "heading": "Heading",
-            "desc": "<p>Some description<\/p>",
-            "button_label": "Button label",
+            "heading": "Made With Organic Cotton",
+            "desc": "<p>We are committed to delivering products of the highest quality, crafted with precision and attention to detail.<\/p>",
+            "button_label": "",
             "button_link": "",
             "button_style": "tertiary"
           }
@@ -405,9 +405,9 @@
           "type": "column",
           "settings": {
             "text": "2",
-            "heading": "Heading",
-            "desc": "<p>Some description<\/p>",
-            "button_label": "Button label",
+            "heading": "Canadian Heritage",
+            "desc": "<p>Paired with our commitment to using only ethically sourced organic fabrics, this is not your average line of loungewear.<\/p>",
+            "button_label": "",
             "button_link": "",
             "button_style": "tertiary"
           }
@@ -416,9 +416,9 @@
           "type": "column",
           "settings": {
             "text": "3",
-            "heading": "Heading",
-            "desc": "<p>Some description<\/p>",
-            "button_label": "Button label",
+            "heading": "Timeless Comfort",
+            "desc": "<p>Paired with our commitment to using only ethically sourced organic fabrics, this is not your average line of loungewear.<\/p>",
+            "button_label": "",
             "button_link": "",
             "button_style": "tertiary"
           }
