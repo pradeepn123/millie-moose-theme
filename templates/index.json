@@ -526,7 +526,7 @@
       "settings": {
         "columns": 5,
         "hide_mobile_image": true,
-        "margin_top": "no-indent",
+        "margin_top": "s",
         "margin_bottom": "l"
       }
     }
