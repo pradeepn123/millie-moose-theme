@@ -23,7 +23,7 @@
         "slideshow_item-1"
       ],
       "custom_css": [
-        "h1{font-size: 60px;}"
+        "h1 {font-size: 60px;}"
       ],
       "settings": {
         "section_layout": "full",
@@ -55,6 +55,9 @@
       },
       "block_order": [
         "heading_7UCHNh"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px;}"
       ],
       "settings": {
         "color_scheme": "background-1",
