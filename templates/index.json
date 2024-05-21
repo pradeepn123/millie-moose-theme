@@ -158,6 +158,9 @@
         "categories_P8NWdC",
         "categories-2"
       ],
+      "custom_css": [
+        "h3 {font-size:24px;}"
+      ],
       "settings": {
         "columns": 4,
         "blocks_spacing": "m",
@@ -429,6 +432,9 @@
         "column_P4rcGH",
         "column_NHKkNf",
         "column_8QAit3"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "multicolumn_to_show": 3,
