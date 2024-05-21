@@ -159,7 +159,7 @@
         "categories-2"
       ],
       "custom_css": [
-        "h3 {font-size:24px;}"
+        "h3 {font-size: 24px;}"
       ],
       "settings": {
         "columns": 4,
@@ -201,6 +201,9 @@
       "block_order": [
         "image_WHBf3F",
         "image_kLLdxy"
+      ],
+      "custom_css": [
+        ".subtitle {font-size: 12px;}"
       ],
       "settings": {
         "hide_mobile_image": true,
@@ -434,7 +437,7 @@
         "column_8QAit3"
       ],
       "custom_css": [
-
+        ".multicolumn-card__image-item {width: 200px; justify-content: center;}"
       ],
       "settings": {
         "multicolumn_to_show": 3,
