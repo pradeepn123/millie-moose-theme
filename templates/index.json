@@ -39,6 +39,63 @@
         "margin_bottom": "no-indent"
       }
     },
+    "rich_text_PxeYqg": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_ymiYmf": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading",
+            "animation": true
+          }
+        },
+        "heading_7UCHNh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Canadian Designs with Timeless Comfort",
+            "heading_size": "h2"
+          }
+        },
+        "text_dr36K3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Description for your section.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
+        },
+        "button_FGMtyA": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Shop bestseller",
+            "button_link": "shopify:\/\/blogs\/news",
+            "button_style": "tertiary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ymiYmf",
+        "heading_7UCHNh",
+        "text_dr36K3",
+        "button_FGMtyA"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "l",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
     "collection-grid": {
       "type": "collection-grid",
       "blocks": {
@@ -109,65 +166,9 @@
         "text_horizontal": "center",
         "overlay_opacity": 20,
         "show_collection_desc": false,
-        "show_collection_button": true,
-        "margin_top": "m",
+        "show_collection_button": false,
+        "margin_top": "xs",
         "margin_bottom": "s"
-      }
-    },
-    "rich_text_PxeYqg": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_ymiYmf": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Subheading",
-            "animation": true
-          }
-        },
-        "heading_7UCHNh": {
-          "type": "heading",
-          "settings": {
-            "heading": "Timeless designs with a uniquely Canadian tinge",
-            "heading_size": "h2"
-          }
-        },
-        "text_dr36K3": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Description for your section.<\/p>",
-            "text_color": "body",
-            "text_size": "small",
-            "container_size": "small",
-            "text_horizontal": "center"
-          }
-        },
-        "button_FGMtyA": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop bestseller",
-            "button_link": "shopify:\/\/blogs\/news",
-            "button_style": "tertiary"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_ymiYmf",
-        "heading_7UCHNh",
-        "text_dr36K3",
-        "button_FGMtyA"
-      ],
-      "settings": {
-        "color_scheme": "scheme-56636d92-bd03-48e8-91cb-dbf71f26eecb",
-        "full_width": true,
-        "content_horizontal": "center",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "l",
-        "padding_bottom": "l",
-        "enable_border_top": false,
-        "enable_border_bottom": false
       }
     },
     "collection_tabs_nmQiYG": {
@@ -532,8 +533,8 @@
   },
   "order": [
     "slideshow",
-    "collection-grid",
     "rich_text_PxeYqg",
+    "collection-grid",
     "collection_tabs_nmQiYG",
     "grid-banner",
     "image-banner",
