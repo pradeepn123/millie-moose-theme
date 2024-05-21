@@ -64,6 +64,9 @@
       "block_order": [
         "mega_menu_collection_4whH9C"
       ],
+      "custom_css": [
+        ".extra-large-font {font-size: 24px;}"
+      ],
       "settings": {
         "full_width": true,
         "height": 90,
