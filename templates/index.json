@@ -91,7 +91,7 @@
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
         "padding_top": "l",
-        "padding_bottom": "s",
+        "padding_bottom": "xs",
         "enable_border_top": false,
         "enable_border_bottom": false
       }
