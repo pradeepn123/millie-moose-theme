@@ -68,7 +68,7 @@
         "full_width": true,
         "height": 90,
         "header_enable_border_bottom": true,
-        "logo_width": 250,
+        "logo_width": 320,
         "header_overlay": true,
         "menu": "main-menu",
         "color_scheme": "background-1",
