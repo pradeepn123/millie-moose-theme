@@ -171,6 +171,56 @@
         "margin_bottom": "s"
       }
     },
+    "image-banner": {
+      "type": "image-banner",
+      "blocks": {
+        "image_WHBf3F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/set_collection_001.png",
+            "image_ratio": "portrait",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        },
+        "image_kLLdxy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/set_collection_002.png",
+            "image_ratio": "portrait",
+            "object_fit": "cover",
+            "animation": true,
+            "aniamtion_effect": "slide"
+          }
+        }
+      },
+      "block_order": [
+        "image_WHBf3F",
+        "image_kLLdxy"
+      ],
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "scheme-56636d92-bd03-48e8-91cb-dbf71f26eecb",
+        "image_size": "medium",
+        "overlay_opacity": 0,
+        "subheading": "COLLECTION",
+        "heading": "It’s Family Time And We Love It!",
+        "description": "<p>We are committed to delivering products of the highest quality, crafted with precision and attention to detail. We are committed to delivering products.<\/p>",
+        "text_horizontal": "left",
+        "text_vertical": "center",
+        "button_label": "shop matching set",
+        "button_link": "#",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "l",
+        "padding_bottom": "l",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
     "collection_tabs_nmQiYG": {
       "type": "collection-tabs",
       "settings": {
@@ -307,56 +357,6 @@
         "columns": 2,
         "margin_top": "no-indent",
         "margin_bottom": "l"
-      }
-    },
-    "image-banner": {
-      "type": "image-banner",
-      "blocks": {
-        "image_WHBf3F": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/set_collection_001.png",
-            "image_ratio": "portrait",
-            "object_fit": "cover",
-            "animation": true,
-            "aniamtion_effect": "slide"
-          }
-        },
-        "image_kLLdxy": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/set_collection_002.png",
-            "image_ratio": "portrait",
-            "object_fit": "cover",
-            "animation": true,
-            "aniamtion_effect": "slide"
-          }
-        }
-      },
-      "block_order": [
-        "image_WHBf3F",
-        "image_kLLdxy"
-      ],
-      "settings": {
-        "hide_mobile_image": true,
-        "full_width": true,
-        "color_scheme": "scheme-56636d92-bd03-48e8-91cb-dbf71f26eecb",
-        "image_size": "medium",
-        "overlay_opacity": 0,
-        "subheading": "COLLECTION",
-        "heading": "It’s Family Time And We Love It!",
-        "description": "<p>We are committed to delivering products of the highest quality, crafted with precision and attention to detail. We are committed to delivering products.<\/p>",
-        "text_horizontal": "left",
-        "text_vertical": "center",
-        "button_label": "shop matching set",
-        "button_link": "#",
-        "button_style": "tertiary",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "l",
-        "padding_bottom": "l",
-        "enable_border_top": false,
-        "enable_border_bottom": false
       }
     },
     "popular-products": {
@@ -535,9 +535,9 @@
     "slideshow",
     "rich_text_PxeYqg",
     "collection-grid",
+    "image-banner",
     "collection_tabs_nmQiYG",
     "grid-banner",
-    "image-banner",
     "popular-products",
     "grid_banner_hn6Mae",
     "social_media_collage_F6UKae"
