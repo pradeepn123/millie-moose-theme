@@ -215,7 +215,7 @@
         "button_style": "tertiary",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
-        "padding_top": "l",
+        "padding_top": "m",
         "padding_bottom": "l",
         "enable_border_top": false,
         "enable_border_bottom": false
