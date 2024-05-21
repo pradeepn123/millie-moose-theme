@@ -225,7 +225,7 @@
       "type": "collection-tabs",
       "settings": {
         "color_scheme": "",
-        "heading": "Heading",
+        "heading": "Collections by style",
         "description": "",
         "alignment": "left",
         "collection_list": [
@@ -233,7 +233,7 @@
         ],
         "product_count": 7,
         "image_ratio": "portrait",
-        "show_two_cards": false,
+        "show_two_cards": true,
         "show_secondary_image": true,
         "show_sku": false,
         "show_vendor": false,
@@ -355,7 +355,7 @@
       ],
       "settings": {
         "columns": 2,
-        "margin_top": "no-indent",
+        "margin_top": "m",
         "margin_bottom": "l"
       }
     },
@@ -365,7 +365,7 @@
         "product_list": [
 
         ],
-        "heading": "Favourites",
+        "heading": "Recently viewed",
         "description": "",
         "alignment": "left",
         "autoplay": false,
