@@ -437,7 +437,7 @@
         "column_8QAit3"
       ],
       "custom_css": [
-        ".multicolumn-card__image-item {width: 200px; justify-content: center;}"
+        ".multicolumn-card__image-item {width: 150px; height: 150px;}"
       ],
       "settings": {
         "multicolumn_to_show": 3,
