@@ -23,7 +23,7 @@
         "is_hover_stop_autoplay": false,
         "slideshow_speed": 1.1,
         "slideshow_delay": 3,
-        "button_label_about": "Button label",
+        "button_label_about": "",
         "button_link_about": ""
       }
     },
