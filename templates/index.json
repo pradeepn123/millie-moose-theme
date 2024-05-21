@@ -393,6 +393,7 @@
         "column_P4rcGH": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Insta_001.png",
             "text": "1",
             "heading": "Made With Organic Cotton",
             "desc": "<p>We are committed to delivering products of the highest quality, crafted with precision and attention to detail.<\/p>",
