@@ -79,7 +79,7 @@
         "color_scheme": "background-1",
         "enable_country_selector": true,
         "enable_language_selector": false,
-        "sticky_header_type": "none",
+        "sticky_header_type": "always",
         "logo_position": "center",
         "enable_search": true
       }
