@@ -47,14 +47,26 @@
       "blocks": {
         "heading_7UCHNh": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Canadian Designs with Timeless Comfort",
             "heading_size": "h2"
           }
+        },
+        "text_FLqM4j": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Canadian Designs<br\/>with Timeless Comfort<\/h2>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "small",
+            "text_horizontal": "center"
+          }
         }
       },
       "block_order": [
-        "heading_7UCHNh"
+        "heading_7UCHNh",
+        "text_FLqM4j"
       ],
       "custom_css": [
         "h2 {font-size: 40px; letter-spacing: 1px;}"
