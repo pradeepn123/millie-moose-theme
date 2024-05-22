@@ -30,7 +30,7 @@
         "section_alignment": "left",
         "vertical_alignment": "center",
         "text_animation": true,
-        "image_size": "adapt",
+        "image_size": "large",
         "is_autoplay": true,
         "is_hover_stop_autoplay": false,
         "show_bullets": true,

@@ -2,32 +2,6 @@
   "type": "header",
   "name": "t:sections.header.settings.header-group.label",
   "sections": {
-    "announcement-bar": {
-      "type": "announcement-bar",
-      "blocks": {
-        "slide": {
-          "type": "slide",
-          "settings": {
-            "text": "<p>For example, a test of the announcement of some news<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "slide"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "height": 40,
-        "color_scheme": "scheme-5815fec4-7049-4ded-9e45-30b485c8e929",
-        "is_autoplay": true,
-        "is_hover_stop_autoplay": false,
-        "slideshow_speed": 1.1,
-        "slideshow_delay": 3,
-        "button_label_about": "",
-        "button_link_about": ""
-      }
-    },
     "header": {
       "type": "header",
       "blocks": {
@@ -86,7 +60,6 @@
     }
   },
   "order": [
-    "announcement-bar",
     "header"
   ]
 }
