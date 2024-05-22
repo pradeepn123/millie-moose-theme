@@ -190,7 +190,7 @@
         "image_kLLdxy"
       ],
       "custom_css": [
-        ".image-banner__heading {font-size: 36px;}"
+        ".image-banner__heading {font-size: 40px;}"
       ],
       "settings": {
         "hide_mobile_image": true,
@@ -216,6 +216,9 @@
     },
     "collection_tabs_nmQiYG": {
       "type": "collection-tabs",
+      "custom_css": [
+        ".section-header__title {font-size : 36px;}"
+      ],
       "settings": {
         "color_scheme": "",
         "heading": "Collections by style",
