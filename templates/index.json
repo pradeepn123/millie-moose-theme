@@ -190,7 +190,7 @@
         "image_kLLdxy"
       ],
       "custom_css": [
-
+        ".image-banner__heading {font-size: 36px;}"
       ],
       "settings": {
         "hide_mobile_image": true,
