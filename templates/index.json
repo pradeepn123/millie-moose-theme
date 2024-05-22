@@ -350,7 +350,7 @@
         "column_NGWFYQ"
       ],
       "custom_css": [
-
+        "h2{font-size: 36px;}"
       ],
       "settings": {
         "columns": 2,
