@@ -34,10 +34,25 @@
             "button_label_2": "Button label",
             "button_link_2": ""
           }
+        },
+        "dropdown_TFbQxi": {
+          "type": "dropdown",
+          "settings": {
+            "dropdown_button_menu": "main-menu",
+            "show_promo": true,
+            "color_scheme": "background-2",
+            "heading": "Some header",
+            "description": "Some description",
+            "promo_alignment": "center",
+            "effect_opacity": 0.2,
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
-        "mega_menu_collection_4whH9C"
+        "mega_menu_collection_4whH9C",
+        "dropdown_TFbQxi"
       ],
       "custom_css": [
         ".extra-large-font {font-size: 18px;}"
