@@ -73,7 +73,7 @@
         "header_enable_border_bottom": true,
         "logo": "shopify:\/\/shop_images\/mellie_moose_logo_2.svg",
         "logo_width": 170,
-        "header_overlay": true,
+        "header_overlay": false,
         "menu": "main-menu",
         "color_scheme": "background-1",
         "enable_country_selector": true,
