@@ -350,7 +350,7 @@
         "column_NGWFYQ"
       ],
       "custom_css": [
-        "h2{font-size: 36px;}"
+        "h2 {font-size: 36px;}"
       ],
       "settings": {
         "columns": 2,
@@ -360,6 +360,9 @@
     },
     "popular-products": {
       "type": "popular-products",
+      "custom_css": [
+        "h2 {font-size: 36px;}"
+      ],
       "settings": {
         "product_list": [
 
