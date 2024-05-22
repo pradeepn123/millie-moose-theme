@@ -217,7 +217,7 @@
     "collection_tabs_nmQiYG": {
       "type": "collection-tabs",
       "custom_css": [
-        ".section-header__title {font-size : 36px;}"
+        ".section-header__title {font-size: 36px;}"
       ],
       "settings": {
         "color_scheme": "",
@@ -348,6 +348,9 @@
         "column_Ut6fzL",
         "column_kCcfN6",
         "column_NGWFYQ"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "columns": 2,
