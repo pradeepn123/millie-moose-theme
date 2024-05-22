@@ -63,7 +63,7 @@
             "button_link_2": "#"
           }
         },
-        "dropdown_TFbQxi": {
+        "dropdown_xzjgtr": {
           "type": "dropdown",
           "settings": {
             "dropdown_button_menu": "main-menu",
@@ -80,7 +80,7 @@
       },
       "block_order": [
         "mega_menu_collection_4whH9C",
-        "dropdown_TFbQxi"
+        "dropdown_xzjgtr"
       ],
       "custom_css": [
         ".extra-large-font {font-size: 18px;}"
