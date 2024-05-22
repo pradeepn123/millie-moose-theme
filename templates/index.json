@@ -134,7 +134,7 @@
         "categories-2"
       ],
       "custom_css": [
-        "h3 {font-size: 24px;}"
+        "h3 {font-size: 20px;}"
       ],
       "settings": {
         "columns": 4,
