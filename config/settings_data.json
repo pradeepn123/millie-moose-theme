@@ -31,6 +31,7 @@
     "card_text_alignment": "left",
     "quickview_button_quick_buy": true,
     "show_on_mobile": false,
+    "cart_type": "drawer",
     "collection_aniamtion_effect": "scale",
     "type_section_header_font": "cormorant_n4",
     "content_for_index": [
