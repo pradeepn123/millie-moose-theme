@@ -63,6 +63,36 @@
             "button_link_2": "#"
           }
         },
+        "mega_menu_collection_VCJ9qj": {
+          "type": "mega_menu_collection",
+          "settings": {
+            "menu_trigger": "family bundle",
+            "menu_primary": "",
+            "primary_heading": "Menu heading",
+            "primary_button_label": "Button label",
+            "primary_button_link": "",
+            "menu_secondary": "",
+            "secondary_heading": "Menu heading",
+            "secondary_button_label": "Button label",
+            "secondary_button_link": "",
+            "show_promo": true,
+            "color_scheme": "background-2",
+            "heading": "Some header",
+            "description": "Some description",
+            "promo_alignment": "center",
+            "effect_opacity": 0.2,
+            "button_label": "Button label",
+            "button_link": "",
+            "show_promo_2": true,
+            "color_scheme_2": "background-2",
+            "heading_2": "Some header",
+            "description_2": "Some description",
+            "promo_alignment_2": "center",
+            "effect_opacity_2": 0.2,
+            "button_label_2": "Button label",
+            "button_link_2": ""
+          }
+        },
         "dropdown_xzjgtr": {
           "type": "dropdown",
           "settings": {
@@ -80,6 +110,7 @@
       },
       "block_order": [
         "mega_menu_collection_4whH9C",
+        "mega_menu_collection_VCJ9qj",
         "dropdown_xzjgtr"
       ],
       "custom_css": [
