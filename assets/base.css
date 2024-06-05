@@ -1057,6 +1057,14 @@ table:not([class]) th {
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
 }
 
+@media only screen and (min-width: 990px) {
+  table:not([class]) td,
+  table:not([class]) th {
+    width: 116px;
+    height: 44px;
+  }
+}
+
 a:empty,
 ul:empty,
 dl:empty,
