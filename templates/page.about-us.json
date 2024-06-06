@@ -1,0 +1,317 @@
+{
+  "sections": {
+    "rich_text_bqcPbD": {
+      "type": "rich-text",
+      "blocks": {
+        "image_iQJBfx": {
+          "type": "image",
+          "settings": {
+            "section_icon": "shopify:\/\/shop_images\/icons-04.svg"
+          }
+        },
+        "heading_QC3h3x": {
+          "type": "heading",
+          "settings": {
+            "heading": "“Exceptional Quality,  Timeless Designs, and\u2028Comfort Crafted with Canadian Pride”",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_iQJBfx",
+        "heading_QC3h3x"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "xs",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "grid_banner_wmh8g6": {
+      "type": "grid-banner",
+      "blocks": {
+        "column_wxcFGx": {
+          "type": "column",
+          "settings": {
+            "column_start": 1,
+            "column_end": 2,
+            "row_start": "unset",
+            "row_end": "unset",
+            "color_scheme": "",
+            "image_ratio": "square",
+            "image": "shopify:\/\/shop_images\/about_01.png",
+            "overlay_opacity": 0,
+            "animation": false,
+            "aniamtion_effect": "slide",
+            "text_horizontal": "center",
+            "text_vertical": "flex-end",
+            "heading": "",
+            "heading_size": "h2",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        },
+        "column_i6cCGD": {
+          "type": "column",
+          "settings": {
+            "column_start": 2,
+            "column_end": 3,
+            "row_start": "unset",
+            "row_end": "unset",
+            "color_scheme": "",
+            "image_ratio": "square",
+            "image": "shopify:\/\/shop_images\/about_02.png",
+            "overlay_opacity": 0,
+            "animation": false,
+            "aniamtion_effect": "slide",
+            "text_horizontal": "center",
+            "text_vertical": "flex-end",
+            "heading": "",
+            "heading_size": "h2",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wxcFGx",
+        "column_i6cCGD"
+      ],
+      "settings": {
+        "columns": 2,
+        "margin_top": "s",
+        "margin_bottom": "m"
+      }
+    },
+    "rich_text_a8txnr": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_6jkbWK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Our story",
+            "animation": false
+          }
+        },
+        "heading_MKCcqW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Commitment to Quality and Community at Millie + Moose",
+            "heading_size": "h2"
+          }
+        },
+        "text_yQ9rNb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Millie + Moose, we’re dedicated to delivering exceptional quality and comfort. Our family-owned business prides itself on offering timeless designs with a uniquely Canadian twist. Each piece of art is thoughtfully crafted by local artists, reflecting our commitment to supporting our community and celebrating our Canadian heritage. We prioritize ethically sourced organic fabrics to ensure that every garment not only looks good but also feels good.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "medium",
+            "text_horizontal": "center"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6jkbWK",
+        "heading_MKCcqW",
+        "text_yQ9rNb"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_Ta7WM3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BzhhWV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Vision",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BzhhWV"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "multicolumn_jfe8wA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_yMr4iw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons-01.svg",
+            "text": "Some text",
+            "heading": "Made With Organic Cotton",
+            "desc": "<p>We are committed to delivering products of the highest quality, crafted with precision and attention to detail.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        },
+        "column_RAD3wH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons-02.svg",
+            "text": "",
+            "heading": "Canadian Heritage",
+            "desc": "<p>Paired with our commitment to using only ethically sourced organic fabrics, this is not your average line of loungewear.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        },
+        "column_prjhBH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons-03.svg",
+            "text": "",
+            "heading": "Timeless Comfort",
+            "desc": "<p>Paired with our commitment to using only ethically sourced organic fabrics, this is not your average line of loungewear.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        }
+      },
+      "block_order": [
+        "column_yMr4iw",
+        "column_RAD3wH",
+        "column_prjhBH"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-item {width: 100px;}",
+        "H3 {font-size: 26px;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "multicolumn_to_show": 3,
+        "horizontal_alignment": "center",
+        "object_fit": "cover",
+        "img_size": "medium",
+        "swipe_on_mobile": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "l",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_xWCYf3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jwc88P": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Mision",
+            "heading_size": "h2"
+          }
+        },
+        "text_NKWePR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Millie + Moose, our mission is to provide exceptionalquality and comfort to our customers through timelessdesigns. We are dedicated to supporting local artists andartisans, celebrating our Canadian heritage, and fosteringa sense of community and connection.<\/p>",
+            "text_color": "body",
+            "text_size": "small",
+            "container_size": "medium",
+            "text_horizontal": "center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jwc88P",
+        "text_NKWePR"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "m",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "image_banner_dctnVa": {
+      "type": "image-banner",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": true,
+        "color_scheme": "",
+        "image": "shopify:\/\/shop_images\/about_03.png",
+        "image_size": "medium",
+        "overlay_opacity": 0,
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_bqcPbD",
+    "main",
+    "grid_banner_wmh8g6",
+    "rich_text_a8txnr",
+    "rich_text_Ta7WM3",
+    "multicolumn_jfe8wA",
+    "rich_text_xWCYf3",
+    "image_banner_dctnVa"
+  ]
+}
