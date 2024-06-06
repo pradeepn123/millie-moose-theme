@@ -1,0 +1,405 @@
+<script src="{{ 'popular-products.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'copy.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'product-single.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'update-slider.js' | asset_url }}" defer="defer"></script>
+
+{{ 'recently-viewed.css' | asset_url | stylesheet_tag }}
+{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+{{ 'quick-add.css' | asset_url | stylesheet_tag }}
+{{ 'section-popular-products.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'product-card.css' | asset_url | stylesheet_tag }}
+
+<style>
+    @media only screen and (min-width: 750px)
+{ 
+.js-recentPdpBlock{
+  {% comment %} display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; {% endcomment %}
+  column-gap: 10px;
+}
+}
+
+@media only screen and (max-width: 576px)
+{
+    /* Code by https://websensepro.com */
+  .js-recentPdpBlock{
+  {% comment %} display: grid;
+  grid-template-columns: 1fr 1fr; {% endcomment %}
+  column-gap: 10px;
+}
+  .c-product img{
+height: 230px !important;
+  }
+}
+
+.recently-title h2 {
+    font-size: 24px;
+    {% comment %} border-top: 1px solid #d2d2d2; {% endcomment %}
+    padding-top: 50px;
+}
+/* .js-recentPdpBlock {
+    display: flex;
+    flex-wrap: wrap !important;
+} */
+
+.c-product{
+  cursor: pointer;
+}
+
+.c-product img {
+    height: 280px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.c-product p.c-productPrice {
+    line-height: 0px;
+  color: #000;
+}
+
+.c-product h3.c-product__title {
+    line-height: 0px;
+    padding-bottom: 10px;
+}
+
+.c-product h3.c-product__title a {
+    color: black;
+  text-decoration: none;
+}
+ a.c-product__url{
+    position: relative;
+  }
+</style>
+{% assign count = 0 %}
+{% for product in product_list %}
+    {% assign count = count | plus: 1 %}
+{% endfor %}
+
+{{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+	{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+	{{ 'quick-add.css' | asset_url | stylesheet_tag }}
+    {{ 'section-popular-products.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+
+<script>
+    // First Block
+        function setRecentlyViewedPdp() {
+            const pdpData = {
+                productTitle : "{{ product.title }}",
+                productImg : "{{ product.featured_image | img_url: '' }}",
+                productPrice : "{{ product.price | money | remove_first: '' }}",
+                productCompareAtPrice: "{{ product.compare_at_price | money | remove_first: '' }}",
+                productUrl : "{{ product.url }}",
+                productAvailable: "{{ product.available }}",
+                productVariant: "{{ product.selected_or_first_available_variant }}",
+                productVariantId: "{{ product.selected_or_first_available_variant.id }}",
+                productVariantAvailable: "{{ product.selected_or_first_available_variant.available }}",
+                productVariantSku: "{{ product.selected_or_first_available_variant.sku }}",
+                productDiscount: "{{ product.compare_at_price | minus: product.price | times: 100.0 | divided_by: product.compare_at_price | money_without_currency | times: 100 | remove: '.0' }}"
+            };
+    
+            // Init Empty Array to push data
+            const productArr = [];
+            // Create a couple of variables 
+            let jsonResp,
+                jsonRespArr, 
+                jsonRespArrStr; 
+            // Set the number how many products you want to capture 
+            const numberOfProduct = 10;
+            // Now push the pdpData into Array so that we can use it 
+            productArr.push(pdpData);
+            // Get the product title from pdpData 
+            const currPdpTitle = pdpData.productTitle;
+            // Now Convert current page data into Strings which we already pushed in Array 
+            const pdpDataString = JSON.stringify(productArr);
+            // Set the variable for localStorage 
+            const localData = localStorage.getItem('recently_viewed');
+          
+            // Second Block
+            // first we need to check data if data is not there then store right // away 
+            if (localData == null) {
+                localStorage.setItem('recently_viewed', pdpDataString);
+                
+            }
+            // If data is there then we need to check couple of other conditions 
+            else if ( localData != null ) {
+                
+                // Create Variable for oldData or Previous page 
+                const oldPdpData = localStorage.getItem('recently_viewed');
+                // Count the amount of data stored in strings so that we can remove // old products from the stack 
+                const countPdpData = (oldPdpData.match(/productTitle/g) || []).length;
+                // we also need to check if user is not visiting page again 
+                const reVisitPdp =  oldPdpData.includes(currPdpTitle);
+                // Get old data, merged it with new data and store merged data
+                if (countPdpData < numberOfProduct && reVisitPdp == false) {
+                    jsonResp = JSON.parse(oldPdpData);
+                    jsonRespArr = jsonResp.concat(productArr);
+                    jsonRespArrStr = JSON.stringify(jsonRespArr);
+                    localStorage.setItem('recently_viewed', jsonRespArrStr);
+                }
+                // If User visited more the 4 pages delete first page data 
+                else if (countPdpData >= numberOfProduct && reVisitPdp == false) {
+                    jsonResp = JSON.parse(oldPdpData);
+                    jsonResp.shift();
+                    jsonRespArr = jsonResp.concat(productArr);
+                    jsonRespArr =  JSON.stringify(jsonRespArr);
+                    localStorage.setItem('recently_viewed', jsonRespArr);
+                }
+            }
+        }
+        
+        // Now we write all our function and it's time to execute it 
+        setRecentlyViewedPdp();
+        // Set Variable for Local Storage Data 
+        const localViewed = localStorage.recently_viewed;
+        // console.log to verify the data 
+    </script>
+        <div class="popular-products section-{{ section_id }} section-{{ section_id }}-padding">
+            <div class="recently-title container">
+                <h2 class="title--section h3">Recently Viewed</h2>
+            </div>
+            <div class="container">
+                <div class="popular-products-progressbar">
+                    <div class="swiper-pagination"></div>
+                    <div class="popular-products-buttons">
+                        <div class="swiper-button swiper-button-prev">
+                            {% render 'icon-arrow-new' %}
+                        </div>
+                        <div class="swiper-button swiper-button-next">
+                            {% render 'icon-arrow-new' %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="popular-products-slider "
+                data-id="shopify-section-{{ section_id }}"
+                data-speed="0.5"
+                data-delay="3"
+                data-autoplay="false"
+                data-stop-autoplay="true"
+                data-per-row="3"
+                data-count="{{ count }}"
+                style="--slider-per-row : 3"
+                sliderCount="4.4"
+                sliderCountDesktop="3.4"
+                sliderCountTab="2.4"
+                sliderCountMobile="1.4"
+                spaceBetweenSlides="16"
+            >
+                <div class="popular-products__container">
+                    <div class="popular-products__wrapper">
+                        <div class="popular-products__swiper swiper">
+                                <div class="js-recentPdpBlock popular-products__swiper-wrapper swiper-wrapper">
+                                    {% comment %} <section id="Recent">
+                                    </section> {% endcomment %}
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script>
+        // Third Block
+        function getRecentPdp (){
+            // First let's convert localStorage data into object again
+            const pdpData = JSON.parse(localStorage.getItem('recently_viewed'));
+            console.log('Recently Viewed Data...',pdpData)
+            // Create a empty Array
+            const recentViewHtml = []
+            // Loop through all the data and inject into HTML using ES6
+            pdpData.forEach(function(item){ 
+                if(pdpData.length > 0 && item.productTitle != ''){
+                    document.querySelector('.recently-viewed-container').style.display = 'block';
+                    recentViewHtml.push(`
+                        <div class="popular-products__slide swiper-slide">
+                            <div
+                                class="popular-products__slide swiper-slide product-card card-wrapper js-color-swatches-wrapper quickview--hover"
+                                data-product="${item?.productTitle}">
+                                <span class="visually-hidden">${item?.productTitle}</span>
+                                <div class="card card--product" tabindex="-1">
+                                    <a
+                                        href="${item?.productUrl}"
+                                        class="media media--hover-effect js-color-swatches-link"
+                                        style="padding-bottom: 100%;"
+                                    >
+                                        <img src="${item?.productImg}" alt="${item?.productTitle}">
+                                    </a>
+                            {% comment %} Quick view {% endcomment %}
+                                    <div class="quick-add no-js-hidden mobile-hide">
+                                        <modal-opener data-modal="#QuickAdd-${item?.productId}">
+                                            <button
+                                                id="quick-add-{{ section_id }}${item?.productId}-submit"
+                                                type="submit"
+                                                name="add"
+                                                class="card__link button button--quick-view card__link--hover mobile-hide card-focused button--primary"
+                                                aria-haspopup="dialog"
+                                                aria-label="quick-view-button"
+                                                aria-labelledby="quick-add-{{ section_id }}${item?.productId}-submit title-{{ section_id }}-${item?.productId}"
+                                                data-product-url="${item?.productUrl}"
+                                            >
+                                                
+                                                <span class="card__quickview-text">
+                                                    Quick View
+                                                </span>
+                                                <b class="loading-overlay__spinner hidden">
+                                                    <svg
+                                                        aria-hidden="true"
+                                                        focusable="false"
+                                                        role="presentation"
+                                                        class="spinner"
+                                                        viewBox="0 0 66 66"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                                                    </svg>
+                                                </b>
+                                            </button>
+                                        </modal-opener>
+                                        <quick-add-modal
+                                            id="QuickAdd-${item?.productId}"
+                                            class="quick-add-modal"
+                                            >
+                                            <div
+                                                role="dialog"
+                                                aria-label="${item?.productTitle}"
+                                                aria-modal="true"
+                                                class="quick-add-modal__content global-settings-popup color-background-3"
+                                            >
+                                                <button
+                                                    id="ModalClose-${item?.productId}"
+                                                    type="button"
+                                                    class="quick-add-modal__toggle modal-close-button"
+                                                    aria-label="close"
+                                                    tabindex="-1"
+                                                >
+                                                    {% comment %} Close icon {% endcomment %}
+                                                    <svg
+                                                        width="20"
+                                                        height="20"
+                                                        viewBox="0 0 20 20"
+                                                        aria-hidden="true"
+                                                        focusable="false"
+                                                        role="presentation"
+                                                        class="icon icon-close"
+                                                        fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg"
+                                                    >
+                                                        <path d="M15.8333 4.16675L4.16667 15.8334M15.8333 15.8334L4.16667 4.16675" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                                    </svg>
+                                                    
+                                                </button>
+                                                <div class="quick-add-modal__content-wrapper">
+                                                    <div
+                                                        id="QuickAddInfo-${item?.productId}"
+                                                        class="quick-add-modal__content-info"
+                                                    ></div>
+                                                </div>
+                                                {% comment %} <div class="quick-add-modal__announcement-bar{% if product_card_product.media.size == 0 %} quick-add-modal__announcement-bar___full{% endif %} background color-{{ settings.quickview_announcement_color_scheme }}">
+                                                    {{ settings.quickview_announcement }}
+                                                </div> {% endcomment %}
+                                            </div>
+                                        </quick-add-modal>
+                                    </div>
+                                </div>
+                                <div class="card-information left">
+                                    <div class="card-information__wrapper">
+                                        <div class="card__badge small-text">
+                                            {% comment %} ${!item?.productAvailable &&
+                                                <span
+                                                    class="badge--bottom-left color-red"
+                                                    aria-hidden="true"
+                                                >
+                                                    Sold out
+                                                </span> 
+                                            } {% endcomment %}
+                                            {% comment %} ${(item?.productCompareAtPrice > item.productPrice) ? 
+                                                <span
+                                                    class=" color-badge red"
+                                                    aria-hidden="true"
+                                                >
+                                                    SALE
+                                                </span> 
+                                            : ''} {% endcomment %}
+                                        </div>
+                                        <div class="card-information-box">
+                                            <div class="card-information-block">
+                                                <div class="card-information-item">
+                                                    <h3 class="card__title">
+                                                        <a
+                                                            class="unstyled-link h4"
+                                                            href="${item?.productUrl}"
+                                                            title="${item?.productTitle}"
+                                                        >
+                                                            ${item?.productTitle}
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                            
+                                                 <div
+                                                    class="
+                                                        card-information-item card-information-item-price
+                                                        {% if settings.quickview_button_quick_buy
+                                                            and product_card_product.selected_or_first_available_variant.available
+                                                            and product_card_product.has_only_default_variant
+                                                            or product_card_product.options.size == 1
+                                                            and product_card_product.options[0] == settings.trigger_swatch
+                                                        %} hide-price {% endif %}">
+                                                    <div class="product-parameters">
+                                                        {% comment %} {% render 'price',
+                                                            product: item,
+                                                            price_class: ''
+                                                        %} {% endcomment %}
+                                                        <div
+                                                            class="price ${item?.productCompareAtPrice > item?.productPrice ? "price--on-sale" : ""} ${item?.productAvailable ? '' : 'price--sold-out'}">
+                                                            <div class="price__sale">
+                                                                <dd class="price__compare">
+                                                                    <span class="price-item price-item--regular">
+                                                                        ${item?.productCompareAtPrice ? item?.productCompareAtPrice : ''}
+                                                                    </span>
+                                                                </dd>
+                                                            </div>
+                                                            <span class="price-item price-item--regular">
+                                                                ${item?.productPrice}
+                                                            </span>  
+                                                            <dd class="price__discount">
+                                                                <span class="price-discount--text">
+                                                                    ${item?.productDiscount > 0 ? item?.productDiscount + '% OFF' : ''}
+                                                                </span>
+                                                            </dd>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `)
+                }
+            })
+            // Now consolidate the data 
+            const recentBlock = `${recentViewHtml.join('')}`
+            // console.log() to check data is correct 
+            
+            // Inject into PDP page
+            const contentBlock = document.querySelectorAll('.js-recentPdpBlock');
+            // Push the data
+            contentBlock.forEach(element =>{
+                element.innerHTML = recentBlock;
+            })
+           
+        }
+        // Execute this function on DOM content load 
+        document.addEventListener('DOMContentLoaded', () => {
+            getRecentPdp();
+        })
+        </script>
