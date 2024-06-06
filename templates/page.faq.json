@@ -40,80 +40,70 @@
           "type": "text-block",
           "settings": {
             "block_heading": "What makes Millie + Moose products unique?",
-            "text": "<p>At Millie + Moose, we offer exceptional quality and comfort through timeless designs with a uniquely Canadian twist. Each piece is thoughtfully crafted by local artists, reflecting our commitment to supporting our community and celebrating Canadian heritage. We also prioritize ethically sourced organic fabrics to ensure that every garment feels as good as it looks.<\/p>",
-            "page": ""
+            "text": "<p>At Millie + Moose, we offer exceptional quality and comfort through timeless designs with a uniquely Canadian twist. Each piece is thoughtfully crafted by local artists, reflecting our commitment to supporting our community and celebrating Canadian heritage. We also prioritize ethically sourced organic fabrics to ensure that every garment feels as good as it looks.<\/p>"
           }
         },
         "text_block_NR66bX": {
           "type": "text-block",
           "settings": {
             "block_heading": "Are your fabrics organic and ethically sourced?",
-            "text": "<p>Yes, we prioritize using ethically sourced organic fabrics. This ensures our garments are environmentally friendly and soft on the skin, aligning with our commitment to sustainability and comfort.<\/p>",
-            "page": ""
+            "text": "<p>Yes, we prioritize using ethically sourced organic fabrics. This ensures our garments are environmentally friendly and soft on the skin, aligning with our commitment to sustainability and comfort.<\/p>"
           }
         },
         "text_block_NcRrYU": {
           "type": "text-block",
           "settings": {
             "block_heading": "How do you support local artists?",
-            "text": "<p>We collaborate with talented local artists and artisans to create our designs. This not only helps to showcase their work but also supports the local economy and fosters a sense of community.<\/p>",
-            "page": ""
+            "text": "<p>We collaborate with talented local artists and artisans to create our designs. This not only helps to showcase their work but also supports the local economy and fosters a sense of community.<\/p>"
           }
         },
         "text_block_kkckdG": {
           "type": "text-block",
           "settings": {
             "block_heading": "What are your core values?",
-            "text": "<ul><li><strong>Highest Quality:<\/strong> We deliver products of the highest quality, crafted with precision and attention to detail.<\/li><li><strong>Canadian Heritage:<\/strong> We celebrate our Canadian roots and artisan heritage in everything we do.<\/li><li><strong>Timeless Comfort:<\/strong> We prioritize the comfort and well-being of our customers in every aspect of our business.<\/li><\/ul>",
-            "page": ""
+            "text": "<ul><li><strong>Highest Quality:<\/strong> We deliver products of the highest quality, crafted with precision and attention to detail.<\/li><li><strong>Canadian Heritage:<\/strong> We celebrate our Canadian roots and artisan heritage in everything we do.<\/li><li><strong>Timeless Comfort:<\/strong> We prioritize the comfort and well-being of our customers in every aspect of our business.<\/li><\/ul>"
           }
         },
         "text_block_hQh4eK": {
           "type": "text-block",
           "settings": {
             "block_heading": "How do you ensure the quality of your products?",
-            "text": "<p>We are committed to the highest quality standards. Our products are meticulously crafted with precision and attention to detail, using only the finest materials.<\/p>",
-            "page": ""
+            "text": "<p>We are committed to the highest quality standards. Our products are meticulously crafted with precision and attention to detail, using only the finest materials.<\/p>"
           }
         },
         "text_block_VGELWy": {
           "type": "text-block",
           "settings": {
             "block_heading": "What is your approach to sustainability?",
-            "text": "<p>Sustainability is a core part of our mission. We use ethically sourced organic fabrics, support local artisans to reduce transportation emissions, implement eco-friendly practices in production and packaging, and focus on creating long-lasting products to minimize waste.<\/p>",
-            "page": ""
+            "text": "<p>Sustainability is a core part of our mission. We use ethically sourced organic fabrics, support local artisans to reduce transportation emissions, implement eco-friendly practices in production and packaging, and focus on creating long-lasting products to minimize waste.<\/p>"
           }
         },
         "text_block_bJkQaR": {
           "type": "text-block",
           "settings": {
             "block_heading": "Do you offer products for the whole family?",
-            "text": "<p>Yes, we have unique collection sets that include nightwear for women, men, and kids, allowing families to enjoy matching nightwear.<\/p>",
-            "page": ""
+            "text": "<p>Yes, we have unique collection sets that include nightwear for women, men, and kids, allowing families to enjoy matching nightwear.<\/p>"
           }
         },
         "text_block_4JqxCh": {
           "type": "text-block",
           "settings": {
             "block_heading": "How can I stay updated on new collections and promotions?",
-            "text": "<p>You can stay updated by subscribing to our newsletter, following us on social media, and regularly checking our website for the latest news, collections, and promotions.<\/p>",
-            "page": ""
+            "text": "<p>You can stay updated by subscribing to our newsletter, following us on social media, and regularly checking our website for the latest news, collections, and promotions.<\/p>"
           }
         },
         "text_block_mUmtFd": {
           "type": "text-block",
           "settings": {
             "block_heading": "What is your return and exchange policy?",
-            "text": "<p>We offer easy exchanges to ensure you find the perfect fit. If something isn't quite right, you can follow our simple exchange process to find the item that suits you best.<\/p>",
-            "page": ""
+            "text": "<p>We offer easy exchanges to ensure you find the perfect fit. If something isn't quite right, you can follow our simple exchange process to find the item that suits you best.<\/p>"
           }
         },
         "text_block_wddGNk": {
           "type": "text-block",
           "settings": {
             "block_heading": "Do you offer free shipping?",
-            "text": "<p>Yes, we provide free shipping on all orders within Canada. Your favorite garments and accessories will be delivered right to your doorstep at no extra cost.<\/p>",
-            "page": ""
+            "text": "<p>Yes, we provide free shipping on all orders within Canada. Your favorite garments and accessories will be delivered right to your doorstep at no extra cost.<\/p>"
           }
         }
       },
@@ -228,7 +218,6 @@
 
       ],
       "settings": {
-        "color_scheme": "background-3",
         "multicolumn_to_show": 3,
         "horizontal_alignment": "center",
         "object_fit": "cover",

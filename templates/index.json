@@ -17,10 +17,26 @@
             "second_button_link": "",
             "article": ""
           }
+        },
+        "slideshow_item_FjWx94": {
+          "type": "slideshow_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MMIO006_1.png",
+            "color_scheme": "background-1",
+            "overlay_opacity": 20,
+            "heading": "Slide heading",
+            "text": "<p>Text from here describes your slide<\/p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "Button label",
+            "second_button_link": "",
+            "article": ""
+          }
         }
       },
       "block_order": [
-        "slideshow_item-1"
+        "slideshow_item-1",
+        "slideshow_item_FjWx94"
       ],
       "custom_css": [
         "h1 {font-size: 70px;}"
