@@ -1,0 +1,253 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "image_banner_aLyHUU": {
+      "type": "image-banner",
+      "settings": {
+        "hide_mobile_image": true,
+        "full_width": false,
+        "color_scheme": "",
+        "image": "shopify:\/\/shop_images\/other_pages_bg_image_02.png",
+        "image_size": "small",
+        "overlay_opacity": 0,
+        "subheading": "",
+        "heading": "Frequently Asked Questions",
+        "description": "<p>At Millie + Moose, we believe that taking proper care of your garments ensures they remain comfortable and stylish for years to come. Our pieces are crafted from high-quality, ethically sourced organic fabrics, and with a little extra care, they will continue to look and feel great.<br\/><br\/>To maintain the quality and longevity of your Millie + Moose garments, follow these care instructions:<\/p>",
+        "text_horizontal": "center",
+        "text_vertical": "center",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "s",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "collapsible_content_VtKYPz": {
+      "type": "collapsible-content",
+      "blocks": {
+        "text_block_KiQrE7": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "What makes Millie + Moose products unique?",
+            "text": "<p>At Millie + Moose, we offer exceptional quality and comfort through timeless designs with a uniquely Canadian twist. Each piece is thoughtfully crafted by local artists, reflecting our commitment to supporting our community and celebrating Canadian heritage. We also prioritize ethically sourced organic fabrics to ensure that every garment feels as good as it looks.<\/p>",
+            "page": ""
+          }
+        },
+        "text_block_NR66bX": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Are your fabrics organic and ethically sourced?",
+            "text": "<p>Yes, we prioritize using ethically sourced organic fabrics. This ensures our garments are environmentally friendly and soft on the skin, aligning with our commitment to sustainability and comfort.<\/p>",
+            "page": ""
+          }
+        },
+        "text_block_NcRrYU": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How do you support local artists?",
+            "text": "<p>We collaborate with talented local artists and artisans to create our designs. This not only helps to showcase their work but also supports the local economy and fosters a sense of community.<\/p>",
+            "page": ""
+          }
+        },
+        "text_block_kkckdG": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "What are your core values?",
+            "text": "<ul><li><strong>Highest Quality:<\/strong> We deliver products of the highest quality, crafted with precision and attention to detail.<\/li><li><strong>Canadian Heritage:<\/strong> We celebrate our Canadian roots and artisan heritage in everything we do.<\/li><li><strong>Timeless Comfort:<\/strong> We prioritize the comfort and well-being of our customers in every aspect of our business.<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "text_block_hQh4eK": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How do you ensure the quality of your products?",
+            "text": "<p>We are committed to the highest quality standards. Our products are meticulously crafted with precision and attention to detail, using only the finest materials.<\/p>",
+            "page": ""
+          }
+        },
+        "text_block_VGELWy": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "What is your approach to sustainability?",
+            "text": "<p>Sustainability is a core part of our mission. We use ethically sourced organic fabrics, support local artisans to reduce transportation emissions, implement eco-friendly practices in production and packaging, and focus on creating long-lasting products to minimize waste.<\/p>",
+            "page": ""
+          }
+        },
+        "text_block_bJkQaR": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Do you offer products for the whole family?",
+            "text": "<p>Yes, we have unique collection sets that include nightwear for women, men, and kids, allowing families to enjoy matching nightwear.<\/p>",
+            "page": ""
+          }
+        },
+        "text_block_4JqxCh": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "How can I stay updated on new collections and promotions?",
+            "text": "<p>You can stay updated by subscribing to our newsletter, following us on social media, and regularly checking our website for the latest news, collections, and promotions.<\/p>",
+            "page": ""
+          }
+        },
+        "text_block_mUmtFd": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "What is your return and exchange policy?",
+            "text": "<p>We offer easy exchanges to ensure you find the perfect fit. If something isn't quite right, you can follow our simple exchange process to find the item that suits you best.<\/p>",
+            "page": ""
+          }
+        },
+        "text_block_wddGNk": {
+          "type": "text-block",
+          "settings": {
+            "block_heading": "Do you offer free shipping?",
+            "text": "<p>Yes, we provide free shipping on all orders within Canada. Your favorite garments and accessories will be delivered right to your doorstep at no extra cost.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_KiQrE7",
+        "text_block_NR66bX",
+        "text_block_NcRrYU",
+        "text_block_kkckdG",
+        "text_block_hQh4eK",
+        "text_block_VGELWy",
+        "text_block_bJkQaR",
+        "text_block_4JqxCh",
+        "text_block_mUmtFd",
+        "text_block_wddGNk"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "heading": "",
+        "description": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "rich_text_JPgnNa": {
+      "type": "rich-text",
+      "blocks": {
+        "text_YitEJQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you have any other questions, please feel free to contact our customer service team. We're here to help!<\/p>",
+            "text_color": "body",
+            "text_size": "large",
+            "container_size": "large",
+            "text_horizontal": "center"
+          }
+        },
+        "button_g8DpR7": {
+          "type": "button",
+          "settings": {
+            "button_label": "CONTACT US",
+            "button_link": "shopify:\/\/pages\/contact-us",
+            "button_style": "tertiary"
+          }
+        }
+      },
+      "block_order": [
+        "text_YitEJQ",
+        "button_g8DpR7"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "content_horizontal": "center",
+        "margin_top": "m",
+        "margin_bottom": "m",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    },
+    "multicolumn_anU8Va": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_arGcq3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons-01.png",
+            "text": "",
+            "heading": "Made With Organic Cotton",
+            "desc": "<p>We are committed to delivering products of the highest quality, crafted with precision and attention to detail.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        },
+        "column_Q4wFg4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons-02.png",
+            "text": "",
+            "heading": "Canadian Heritage",
+            "desc": "<p>Paired with our commitment to using only ethically sourced organic fabrics, this is not your average line of loungewear.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        },
+        "column_K8WaMC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icons-03.png",
+            "text": "",
+            "heading": "Timeless Comfort",
+            "desc": "<p>Paired with our commitment to using only ethically sourced organic fabrics, this is not your average line of loungewear.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "tertiary"
+          }
+        }
+      },
+      "block_order": [
+        "column_arGcq3",
+        "column_Q4wFg4",
+        "column_K8WaMC"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "background-3",
+        "multicolumn_to_show": 3,
+        "horizontal_alignment": "center",
+        "object_fit": "cover",
+        "img_size": "medium",
+        "swipe_on_mobile": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "s",
+        "padding_bottom": "m",
+        "enable_border_top": false,
+        "enable_border_bottom": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_aLyHUU",
+    "collapsible_content_VtKYPz",
+    "rich_text_JPgnNa",
+    "multicolumn_anU8Va"
+  ]
+}

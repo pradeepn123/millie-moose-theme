@@ -40,7 +40,10 @@
 									{{- option.name -}}
 								</span>
 
-								<div class="product-form__controls-group">
+								{% assign optionName = option.name | downcase %}
+								{% assign optionValuesSize = option.values | size %}
+
+								<div class="product-form__controls-group{% if optionName == 'material' and optionValuesSize == 1 %} hide-single-variant-border{% endif %}">
 									{% render 'product-variant-options',
 										product: product,
 										option: option,
