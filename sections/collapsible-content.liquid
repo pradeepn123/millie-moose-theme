@@ -41,7 +41,7 @@
 					%}
 						<div class="collapsible-content-block">
 							<div class="collapsible-content-item">
-								<div class="collapsible-content-summery">
+								<div class="collapsible-content-summery{% if forloop.index == 1 %} active{% endif %}">
 									<h4 class="collapsible-content-block__heading ">
 										{{ block.settings.block_heading | escape }}
 									</h4>

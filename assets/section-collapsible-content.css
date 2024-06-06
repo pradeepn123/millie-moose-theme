@@ -33,6 +33,7 @@
   position: relative;
   cursor: pointer;
   transition: all var(--duration-default) ease;
+  column-gap: 1.2rem;
 }
 .collapsible-content .collapsible-content-summery.active svg {
   transform: rotate(180deg);
@@ -41,6 +42,7 @@
   width: 3.2rem;
   height: 3.2rem;
   color: rgba(var(--color-accent));
+  flex-basis: 10%;
 }
 .collapsible-content-block + .collapsible-content-block .accordion {
   border-top: none;
@@ -50,7 +52,8 @@
 }
 .collapsible-content-block__heading {
   margin: 0;
-  padding-right: 2rem;
+  padding: 0;
+  flex-basis: 90%;
 }
 .collapsible-content-block__description {
   max-width: 90%;
