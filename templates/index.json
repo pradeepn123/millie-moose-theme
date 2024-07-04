@@ -140,7 +140,7 @@
         "categories_P8NWdC": {
           "type": "categories",
           "settings": {
-            "collection": "kids-youth",
+            "collection": "shop-all-kids-youth",
             "collection_image": "shopify:\/\/shop_images\/kid_youth_collection.png",
             "button_label": "Button label",
             "button_link": "#",
